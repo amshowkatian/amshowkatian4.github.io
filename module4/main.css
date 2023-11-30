@@ -1,0 +1,148 @@
+/* Please insert all your CSS code into this document */
+
+.firstheader{
+	position:fixed;
+	top: 0;
+    width: 100%;
+}
+
+.firstfooter{
+	position:fixed;
+	bottom: 0;
+    width: 100%;
+}
+
+.banner{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+#wrapper{
+	margin-top:10%;
+	margin-bottom:15%;
+}
+
+.onewrapper{
+	position:relative;
+}
+
+img{
+	position:relative;
+	width:100%;
+	height:auto;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.onearticlecont{
+	
+	overflow:scroll;
+}
+
+.oneaside{
+	position:fixed;
+	left:0;
+	width:160px;
+	top:50px;
+}
+
+div.onearticle{
+	position:absolute;
+	top:50px;
+	right:0;
+	width:500px;
+	height:300px;
+	overflow:scroll;
+}
+
+img.onebody {
+	width: 300px;
+}
+
+/* Modifications to Page Two / Floating Position Layout */
+
+aside.two {
+	float: left;
+	min-width: 130px;
+}
+
+div.articles2 {
+	min-height: 400px;
+	min-width: 350px;
+	padding: 0 30px;
+	overflow: scroll;
+}
+	
+.left2 {
+	float: left;
+	margin: 10px 35px 10px 0px;
+	width: 170px;
+}
+
+.right2 {
+	float: right;
+	margin: 10px 0px 10px 35px;
+	width: 170px;
+}
+
+aside.three {
+	float: left;
+	min-width: 130px;
+}
+
+div.articles3 {
+	min-height: 400px;
+	min-width: 350px;
+	padding: 0 1em;
+	overflow: scroll;
+}
+
+.right3 {
+	float: right;
+	margin: 1em 0em 1em 2em;
+	width: 25%;
+}
+
+.left3 {
+	float: left;
+	margin: 1em 2em 1em 0;
+	width: 25%;
+}
+
+aside.four {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	min-width: 130px;
+}
+
+div.articles4 {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	min-height: 400px;
+	min-width: 350px;
+}
+
+.right4 {
+	float: right;
+	margin: 1em 0em 1em 2em;
+	width: 25%;
+}
+
+.left4 {
+	float: left;
+	margin: 1em 2em 1em 0;
+	width: 25%;
+}
+	
+.fivebox{
+	display:inline-block;
+	width:24%;
+	height:10%;
+	margin: .1%;
+}
+
+.fivebox:hover{
+	color:red;
+}
